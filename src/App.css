@@ -1,0 +1,108 @@
+.App {
+    background-color: bisque;
+    height:100vh;
+}
+
+.MineSweeper {
+    width: 930px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-size: 300%;
+    text-align: center;
+    padding: 25px 0;
+    font-family: 'Antic Slab', serif;
+}
+
+.RadioButtons {
+    text-align: center;
+    padding: 10px;
+    height: 35px;
+}
+
+.controls {
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+.controls .StopWatch {
+    position: absolute;
+    display: inline-block;
+    left: 35%;
+    left-margin: auto;
+    right-margin: auto;
+    padding-left: 35px;
+    margin-top: 15px;
+    background: url("assets/images/icn_clock_01.png") no-repeat left center;
+}
+
+.controls .button {
+    position: absolute;
+    display: inline-block;
+    left: 47%;
+    left-margin: auto;
+    right-margin: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff #999 #999 #fff;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    background-color: darkgray;
+}
+
+.controls .noplay{
+    background: url("assets/images/icn_face_01.png") no-repeat center center;
+    background-color: forestgreen;
+}
+
+.controls .playing {
+    background: url("assets/images/icn_face_01.png") no-repeat center center, #ccc;
+    background-color: darkorange;
+}
+
+.controls .victory {
+    background: url("assets/images/icn_face_02.png") no-repeat center center, #ccc;
+    background-color: deeppink;
+}
+
+.controls .defeat {
+    background: url("assets/images/icn_face_03.png") no-repeat center center, #ccc;
+    background-color: black;
+}
+
+.controls .FlagCount {
+    position: absolute;
+    display: inline-block;
+    left: 60%;
+    left-margin: auto;
+    right-margin: auto;
+    padding-left: 30px;
+    margin-top: 15px;
+    background: url("assets/images/icn_flag_01.png") no-repeat left center;
+}
+
+.Canvas {
+    position: relative;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.Canvas .easy {
+    width: 310px;
+    border: 1px solid pink;
+}
+
+.Canvas .medium {
+    width: 620px;
+    border: 1px solid black;
+}
+
+.Canvas .complex {
+    width: 930px;
+    border: 1px solid black;
+}
